@@ -1,0 +1,30 @@
+.politic {
+    display: flex;
+    margin: 20px 0 20px;
+    flex-direction: column;
+    row-gap: 20px;
+    text-align: center;
+}
+
+.politic__title{
+    font-family: Jost, sans-serif;
+    font-size: 26px;
+}
+
+.politic__subtitle{
+    font-family: Jost, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.politic__list {
+    list-style-type: none;
+    row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.politic__list-item {
+    font-size: 18px;
+    font-family: Jost, sans-serif;
+}

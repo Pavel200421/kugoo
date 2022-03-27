@@ -1,0 +1,138 @@
+.aboutUs {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 10px;
+}
+
+.aboutUs-part-1 {
+    display: flex;
+    column-gap: 60px;
+    padding: 29px 0 29px;
+    justify-content: center;
+}
+
+.aboutUs__img{
+    background: url("../../assets/picture.png");
+    width: 606px;
+    height: 565px;
+    position: relative;
+}
+
+.aboutUs__img-block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    white-space: nowrap;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 17px 21px 11px 21px;
+}
+
+.aboutUs__img-title{
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.aboutUs__img-subtitle{
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.aboutUs__more{
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    display: flex;
+    column-gap: 70px;
+    padding: 11px 21px 11px;
+    text-decoration: none;
+    background: #6F73EE;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    transition: .5s;
+    border: 2px solid transparent;
+}
+.aboutUs__more:hover {
+    transition: .5s;
+    background: white;
+    border: 2px solid #6F73EE;
+    color: #6F73EE;
+}
+.aboutUs__companyInfo{
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+    margin: 20px 0 0;
+}
+
+.aboutUs__companyInfo-title {
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 51px;
+    text-transform: uppercase;
+    color: #282739;
+}
+.aboutUs__companyInfo-subtitle{
+    white-space: nowrap;
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #282739;
+    margin-right: 20px;
+}
+.aboutUs__companyInfo-block{
+    margin: 22px 50px 0 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 13px;
+    padding: 20px 50px 21px 29px;
+    background: #F4F7FB;
+}
+.aboutUs__companyInfo-block-subtitle{
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #282739;
+    border-radius: 10px;
+}
+.aboutUs__companyInfo-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+
+}
+.aboutUs__companyInfo-list-item{
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #282739;
+}
+
+
+
+
+
+

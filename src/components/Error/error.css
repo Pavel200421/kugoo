@@ -1,0 +1,26 @@
+.error {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    margin: 40px 0;
+    align-items: center;
+}
+
+.error__title {
+    font-size: 35px;
+    font-family: Jost, sans-serif;
+    letter-spacing: 2px;
+}
+
+.error__back {
+    cursor: pointer;
+    color: #6F73EE;
+    font-size: 20px;
+    transition: .5s;
+
+}
+
+.error__back:hover {
+    transition: .5s;
+    color: coral;
+}

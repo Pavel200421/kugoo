@@ -1,0 +1,25 @@
+.soon {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    margin: 40px 0;
+    align-items: center;
+}
+
+.soon__title {
+    font-size: 35px;
+    font-family: Jost, sans-serif;
+    letter-spacing: 2px;
+}
+.soon__back {
+    cursor: pointer;
+    color: #6F73EE;
+    font-size: 20px;
+    transition: .5s;
+
+}
+
+.soon__back:hover {
+    transition: .5s;
+    color: coral;
+}

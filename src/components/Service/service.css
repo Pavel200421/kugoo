@@ -1,0 +1,212 @@
+.service {
+    display: flex;
+    flex-direction: column;
+    margin-top: 31px;
+}
+
+.service__block-1 {
+    background: url("../../assets/remont.png");
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 72px;
+    padding: 60px 480px 159px 136px;
+    width: 1370px;
+    height: 421px;
+    border-radius: 10px;
+}
+
+.service__title {
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 51px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.service__subtitle {
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 4px;
+}
+
+.service__list {
+    display: flex;
+    list-style-type: none;
+    margin-top: 30px;
+    column-gap: 35px;
+}
+.service__list-item {
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+}
+
+.service__card-subtitle {
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+.card__background {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.service__block-2 {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 88px;
+}
+
+.service__block-2-title {
+    text-align: center;
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 51px;
+    text-transform: uppercase;
+    color: #282739;
+}
+
+
+.service__block-2-blocks {
+    display: flex;
+    column-gap: 23px;
+    justify-content: center;
+}
+.service__block-2-box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.service__block-2-box-2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+.service__block-2-box-2-title {
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #282739;
+}
+.service__block-1-btn {
+    width: 170px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-family: Jost, sans-serif;
+    border: 1px solid orange;
+    color: orange;
+    justify-content: center;
+    text-decoration: none;
+    margin: 30px auto;
+    background: white;
+    font-size: 24px;
+    transition: .5s;
+}
+.service__block-1-btn:hover {
+    background: orange;
+    transition: .5s;
+    color: white;
+    border: 1px solid white;
+
+}
+.service__block-2-box-2-subtitle {
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #282739;
+}
+
+.service__samokat-img {
+    border-radius: 50%;
+}
+
+.service__block-3 {
+    margin: 90px 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 90px;
+}
+.service__box-3-block {
+    display: flex;
+    align-items: center;
+    column-gap: 66px;
+}
+.service__text-block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.service__box-3-title {
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #282739;
+}
+.service__box-3-subtitle {
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #282739;
+}
+
+.service__box-3-subtitle-2 {
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #282739;
+    font-weight: bold;
+}
+
+.service__box-3-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-top: 15px;
+    list-style-type: none;
+}
+.service__box-3-list-item {
+    display: flex;
+    column-gap: 11px;
+}
+
+.service__box-3-list-item-text {
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #282739;
+
+}
+
+

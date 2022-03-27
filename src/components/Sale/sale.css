@@ -1,0 +1,41 @@
+.sale {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+.sale__blocks {
+    display: flex;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin: 20px auto;
+}
+.sale__title {
+    font-size: 24px;
+    font-family: Jost, sans-serif;
+}
+.sale__block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.sale__img {
+    width: 400px;
+    height: 300px;
+}
+.sale__block-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.sale__block-title {
+    font-size: 18px;
+    font-family: Jost,sans-serif;
+}
+.sale__block-subtitle {
+    font-size: 12px;
+    font-family: Jost, sans-serif;
+}

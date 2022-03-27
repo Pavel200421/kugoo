@@ -1,0 +1,95 @@
+.container__information{
+    width: 100%;
+    max-width: 1053px;
+    margin: 0 auto;
+}
+.information{
+    display: flex;
+    padding: 30px 0 0;
+}
+
+.information__list{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.information__item-block{
+    display: flex;
+    flex-direction: column;
+}
+.information__item-title{
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #282739;
+}
+.information__item-subtitle{
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #282739;
+}
+.information__item-block-last{
+    width: 100%;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    padding: 10px 27px 10px;
+    column-gap: 18px;
+    background: transparent;
+    border: 1px solid rgba(93, 108, 123, 0.1);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.information__item-background{
+    background: #FC3F1D;
+    border-radius: 5px;
+    width: 56px;
+    height: 56px;
+    position: relative;
+}
+.information__item-background::before{
+    position: absolute;
+    content: url("../../assets/Yandex.png");
+    width: 17px;
+    height: 26px;
+    top: 24%;
+    left: 30%;
+}
+.information__item-block-mark{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.information__item-review{
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    color: #5D6C7B;
+    text-decoration: none;
+}
+
+.information__item-mark{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+.information__item-mark-number{
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #282739;
+
+}
+

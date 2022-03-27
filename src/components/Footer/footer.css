@@ -1,0 +1,274 @@
+.footer{
+    padding: 46px 166px 23px 165px;
+    background: #F4F7FB;
+}
+
+.footer__part-1 {
+    display: flex;
+    column-gap: 125px;
+    position: relative;
+}
+.footer__part-1::before {
+    content: '';
+    position: absolute;
+    width: 105%;
+    height: 2px;
+    background-color: #80808040;
+    top: 107%;
+}
+
+.footer__part-1-goods{
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+}
+
+.footer__part-1-goods-title {
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #282739;
+    white-space: nowrap;
+}
+
+.footer__part-1-goods-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    row-gap: 10px;
+}
+
+.footer__link{
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5D6C7B;
+    text-decoration: none;
+    transition: .5s;
+    white-space: nowrap;
+}
+.footer__link.active{
+    color: #6F73EE;
+}
+.footer__link:hover{
+    transition: .5s;
+    color: #6F73EE;
+}
+
+.footer__part-1-visitors {
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+}
+
+.footer__part-1-visitors-title {
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #282739;
+}
+.footer__link-blog {
+    margin-left: 46px;
+}
+
+.footer__part-1-visitors-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.footer__part-1-visitors-list-item{
+}
+.footer__part-1-visitors-list-item-block{
+    display: flex;
+    column-gap: 40px;
+}
+
+.footer__link-special1{
+    padding-left: 46px;
+}
+.footer__link-special2{
+    padding-left: 40px;
+}
+.footer__link-special3{
+    padding-left: 94px;
+}
+.footer__link-special4{
+    padding-left: 89px;
+}
+
+
+.footer__part-1-contact{
+    display:flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.footer__part-1-contact-title{
+
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #282739;
+}
+
+.footer__part-1-contact-list{
+    list-style-type: none;
+    display: flex;
+    column-gap: 40px;
+}
+
+
+.footer__part-1-contact-list-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__part-1-contact-list-item-block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.footer__part-1-contact-list-item-block-title{
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    color: #282739;
+}
+.footer__part-1-contact-list-item-adress{
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #282739;
+    white-space: nowrap;
+    text-decoration: none;
+    transition: .5s;
+
+}
+.footer__part-1-contact-list-item-adress:hover {
+    transition: .5s;
+    color: #6F73EE;
+}
+
+
+.footer__part-2 {
+    margin-top: 46px;
+    position: relative;
+}
+
+.footer__part-2::before {
+    content: '';
+    position: absolute;
+    width: 105.3%;
+    height: 2px;
+    background: #80808040;
+    top: 118%;
+}
+
+.footer__part-2{
+    display: flex;
+    column-gap: 120px;
+}
+
+.footer__part-2-block{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.footer__part-2-block-img {
+    width: 136px;
+}
+
+.footer__part-2-block-img-2 {
+    width: 135px;
+}
+
+.footer__part-3{
+    display: flex;
+    margin-top: 36px;
+    justify-content: space-between;
+}
+
+.footer__part-3-block-text2{
+    padding-left: 44px;
+}
+
+.footer__part-3-block-text {
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 17px;
+    color: #5D6C7B;
+    text-decoration: none;
+}
+
+
+.footer__part-3-block {
+    display: flex;
+    column-gap: 5px;
+}
+
+.footer__part-3-payment {
+    width: 36px;
+}
+
+.footer__part-3-block3{
+    display: flex;
+    column-gap: 16px;
+}
+
+.footer__part-3-online {
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #282739;
+
+}
+
+.footer__part-3-block3-adrs {
+    display: flex;
+    column-gap: 15px;
+}
+.footer__part-1-contact-list-item-subtitle {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #5D6C7B;
+}
+
+.footer__twice{
+    display: flex;
+    column-gap: 50px;
+}
+
+.footer__part-2-block-2 {
+    display: flex;
+}
+.aboutUs__companyInfo-subtitle {
+    display: flex!important;
+    justify-content: center!important;
+}
+
+.footer__link-special4 {
+ margin-left: 4px;
+}
+
+

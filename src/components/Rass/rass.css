@@ -1,0 +1,50 @@
+.rass {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 10px;
+    margin: 20px 0 40px;
+}
+.rass__title{
+    font-family: Jost, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #282739;
+}
+.rass__subtitle {
+    font-family: Jost, sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+
+}
+
+.rass__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.rass__list-item{
+    font-size: 18px;
+    font-family: Jost, sans-serif;
+}
+
+.rass__number {
+    margin-top: 20px;
+    font-family: Jost, sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 23px;
+    color: #282739;
+    white-space: nowrap;
+    transition: .5s;
+}
+.rass__number:hover {
+    color: #6F73EE;
+    transition: .5s;
+}
